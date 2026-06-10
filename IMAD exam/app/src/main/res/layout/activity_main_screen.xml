@@ -10,7 +10,7 @@
 
     <EditText
         android:id="@+id/edtSafetyItems"
-        android:layout_width="350dp"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/enter_how_many_safety_items_you_are_bringing"
