@@ -1,5 +1,6 @@
 package com.example.imadexam
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -22,7 +23,26 @@ class MainActivity : AppCompatActivity() {
         btnStart = findViewById(R.id.btnStart)
         btnExit = findViewById(R.id.btnExit)
 
-        
+        //Making the button for the start
+        //This is to move to the next screen
+        btnStart.setOnClickListener {
+           val intent = Intent(this, MainScreen::class.java)
+            startActivity(intent)
+        }
+
+        //Making the for exit
+        //This is to exit the app when the user is done
+        btnExit.setOnClickListener {
+            finishAffinity()
+        }
+
+
+
+
+
+
+
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
