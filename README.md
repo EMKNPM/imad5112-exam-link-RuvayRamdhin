@@ -9,8 +9,7 @@
 ## 🔗 GitHub Repository
 
 **GitHub Repository Link:**  
-[Insert GitHub Repository Link Here]
-
+https://github.com/EMKNPM/imad5112-exam-link-RuvayRamdhin 
 
 ## 📌 Purpose of the Application
 The purpose of the Campsite Commander is so that all users add the type of item they are bring, and the quantity of them and what extactly they are bringing. 
