@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -64,6 +65,26 @@ class MainScreen : AppCompatActivity() {
         val shelterItem = edtShelterItems.toString()
         val foodItem = edtFoodItems.toString()
         val safetyItem = edtSafetyItems.toString()
+
+        //Another error handling to make sure all inputs fields are completed
+        if (shelterItem.isEmpty() || foodItem.isEmpty() || safetyItem.isEmpty()){
+            Toast.makeText(this, "Please complete all the fields!", Toast.LENGTH_SHORT).show()
+            return
+        }
+
+        val Description1 = tvDescription1.text.toString()
+        val Description2 = tvDescription2.text.toString()
+        val Description3 = tvDescription3.text.toString()
+
+        
+
+
+
+
+
+
+
+
 
 
 
