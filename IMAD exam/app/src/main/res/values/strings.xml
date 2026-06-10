@@ -23,4 +23,7 @@
     <string name="please_describe_what_you_have">Please describe what you have</string>
     <string name="please_enter_what_item_your_are_bringing">Please enter what item your are bringing</string>
     <string name="please_enter_the_number_of_things_you_are_brought">please enter the number of things you are brought</string>
+    <string name="all_your_results_will_display_here">All your results will display here</string>
+    <string name="view_gear_loaded">View gear loaded</string>
+    <string name="back_to_main_screen">Back to main screen</string>
 </resources>
