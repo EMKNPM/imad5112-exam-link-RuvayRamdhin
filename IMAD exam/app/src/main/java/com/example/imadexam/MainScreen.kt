@@ -47,7 +47,6 @@ class MainScreen : AppCompatActivity() {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spnCategory.adapter = adapter
 
-        
         //Making the button for the next screen
         btnDetailScreen.setOnClickListener {
             intent = Intent(this, DetailedViewScreen::class.java)
@@ -70,30 +69,25 @@ class MainScreen : AppCompatActivity() {
     //that the user has entered
     private fun saveGearData(){
 
+        //gets the selected spinner position
+        val selectItem = spnCategory.selectedItemPosition
 
+        val item = edtItem.text.toString()
 
+        //Error handling to make sure the field has been inputted
+        if (item.isEmpty()){
+            Toast.makeText(this, "Please complete all the fields!", Toast.LENGTH_SHORT).show()
+            return
+        }
 
+        val description = tvDescription.text.toString()
 
-
-
-
+        //another error handling
+        if (description.isEmpty()){
+            Toast.makeText(this, "Please complete all the fields!", Toast.LENGTH_SHORT).show()
+            return
+        }
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

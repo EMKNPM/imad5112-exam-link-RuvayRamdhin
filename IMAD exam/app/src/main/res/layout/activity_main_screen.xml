@@ -13,7 +13,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/please_enter_what_item_your_are_bringing"
+        android:hint="@string/please_enter_the_number_of_things_you_are_brought"
         android:importantForAutofill="no"
         android:inputType="number"
         android:minHeight="48dp"
@@ -23,7 +23,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.238" />
+        app:layout_constraintVertical_bias="0.237" />
 
     <TextView
             android:id="@+id/tvHomeScreen"
