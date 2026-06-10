@@ -5,4 +5,17 @@
     <string name="created_by_ruvay_ramdhin_st10522098">Created by Ruvay Ramdhin: ST10522098</string>
     <string name="start">Start</string>
     <string name="exit">Exit</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="add_gear">Add Gear</string>
+    <string name="enter_your_item">Enter your item</string>
+    <string name="enter_the_amount_of_items">Enter the amount of items</string>
+    <string name="enter_the_amount_of_shelter_items_being_brought">Enter the amount of shelter items being brought</string>
+    <string name="enter_how_much_food_you_are_bringing">Enter how much food you are bringing</string>
+    <string name="enter_how_many_safety_items_you_are_bringing">Enter how many safety items you are bringing</string>
+    <string name="please_enter_the_items_you_have_brought">Please enter the items you have brought</string>
+    <string name="please_enter_the_shelter_item_you_brought">Please enter the shelter item you brought</string>
+    <string name="please_enter_the_enter_food_item_you_brought">Please enter the enter food item you brought</string>
+    <string name="please_enter_teh_food_item_you_brought">Please enter teh food item you brought</string>
+    <string name="please_the_food_item_you_brought">Please the food item you brought</string>
+    <string name="please_enter_the_safety_item_you_have_brought">Please enter the safety item you have brought</string>
 </resources>
