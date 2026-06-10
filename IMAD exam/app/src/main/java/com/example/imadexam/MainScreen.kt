@@ -60,7 +60,10 @@ class MainScreen : AppCompatActivity() {
     //that the user has entered
     private fun saveGearData(){
 
-        //adding a if statement to make sure all the info was saved
+        //Makes sure that only thing that can be entered is a string
+        val shelterItem = edtShelterItems.toString()
+        val foodItem = edtFoodItems.toString()
+        val safetyItem = edtSafetyItems.toString()
 
 
 
