@@ -72,11 +72,16 @@ class MainScreen : AppCompatActivity() {
             return
         }
 
-        val Description1 = tvDescription1.text.toString()
-        val Description2 = tvDescription2.text.toString()
-        val Description3 = tvDescription3.text.toString()
+        val description1 = tvDescription1.text.toString()
+        val description2 = tvDescription2.text.toString()
+        val description3 = tvDescription3.text.toString()
 
-        
+        if (description1.isEmpty() || description2.isEmpty() || description3.isEmpty()){
+            Toast.makeText(this, "Please complete all the fields!", Toast.LENGTH_SHORT).show()
+            return
+        }
+
+
 
 
 
