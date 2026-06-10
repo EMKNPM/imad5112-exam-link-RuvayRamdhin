@@ -55,7 +55,7 @@ class MainScreen : AppCompatActivity() {
 
         //Making the btnAddGear save all it information
         btnAddGear.setOnClickListener {
-
+            saveGearData()
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
