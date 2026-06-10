@@ -37,6 +37,7 @@ class DetailedViewScreen : AppCompatActivity() {
         //making the code for the btnView
         //This will display all  the code the user has entered
         btnView.setOnClickListener {
+            tvResult.text = "Shelter, Food, Safety"
 
         }
 
