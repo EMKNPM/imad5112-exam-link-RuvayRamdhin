@@ -18,4 +18,5 @@
     <string name="please_enter_teh_food_item_you_brought">Please enter teh food item you brought</string>
     <string name="please_the_food_item_you_brought">Please the food item you brought</string>
     <string name="please_enter_the_safety_item_you_have_brought">Please enter the safety item you have brought</string>
+    <string name="see_information">See information</string>
 </resources>
