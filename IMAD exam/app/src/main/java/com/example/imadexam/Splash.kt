@@ -19,7 +19,6 @@ class Splash : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_splash)
 
-
         //typecasting
         btnStart = findViewById(R.id.btnStart2)
         btnExit = findViewById(R.id.btnExit2)
