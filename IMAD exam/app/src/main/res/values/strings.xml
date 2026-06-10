@@ -19,4 +19,7 @@
     <string name="please_the_food_item_you_brought">Please the food item you brought</string>
     <string name="please_enter_the_safety_item_you_have_brought">Please enter the safety item you have brought</string>
     <string name="see_information">See information</string>
+    <string name="save_description">Save description</string>
+    <string name="please_describe_what_you_have">Please describe what you have</string>
+    <string name="please_enter_what_item_your_are_bringing">Please enter what item your are bringing</string>
 </resources>
