@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">IMAD exam</string>
+    <string name="campsite_commander">Campsite Commander</string>
+    <string name="welcome_to_campsite_commander">Welcome to Campsite Commander</string>
+    <string name="created_by_ruvay_ramdhin_st10522098">Created by Ruvay Ramdhin: ST10522098</string>
+    <string name="start">Start</string>
 </resources>
