@@ -1,5 +1,6 @@
 package com.example.imadexam
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -37,12 +38,16 @@ class MainScreen : AppCompatActivity() {
         btnAddGear = findViewById(R.id.btnAddGear)
 
 
+        //Making the button for the next screen
+        btnDetailScreen.setOnClickListener {
+            intent = Intent(this, DetailedViewScreen::class.java)
+            startActivity(intent)
+        }
 
+        //Making the btnAddGear save all it information
+        btnAddGear.setOnClickListener {
 
-
-
-
-
+        }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -50,4 +55,31 @@ class MainScreen : AppCompatActivity() {
             insets
         }
     }
+
+    //Making a function to save the all the info
+    //that the user has entered
+    private fun saveGearData(){
+
+        //adding a if statement to make sure all the info was saved
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
