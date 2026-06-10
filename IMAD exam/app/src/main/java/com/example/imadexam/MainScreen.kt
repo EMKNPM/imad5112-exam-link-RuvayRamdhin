@@ -2,6 +2,7 @@ package com.example.imadexam
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Spinner
@@ -38,6 +39,13 @@ class MainScreen : AppCompatActivity() {
         btnAddGear = findViewById(R.id.btnAddGear)
         spnCategory = findViewById(R.id.spnCategory)
 
+        //Extracting the different categories
+        val itemCategory = campingStuff.map {  }
+
+        //Create spinner adapter for category selection
+        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item,itemCategory)
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        spnCategory.adapter = adapter
 
         
         //Making the button for the next screen
